@@ -17,9 +17,6 @@
 	<div id="section">
 		<H3>Spotify Walkthrough</H3>
 
-		<p>
-        With a lot of the different options we will be working with the Web API. This will allow you to get album data, playlists and other content that only a spotify user can get. Speaking of that, you need to be a spotify user to use the API, which isn’t a big deal considering you don’t pay any money. </p>
-        <br>
         <h3>Signing up</h3>
     <p>
         It is a very simple setup and since I am currently a spotify user, but if you are not, take a couple of moments and sign up for their services, if for nothing else than to just try their api. 
@@ -36,18 +33,26 @@
 
         <p>After visiting the developer website, you will need to register your app. This is only if you need to access a user’s personal data.</p> 
 
-        For this example, I have created a small program called CS290 App and registered it with my 
+        <p>For this example, I have created a small program called CS290 App and registered it with my </p>
 
-        To access basic levels of info, you needn’t ask for permission, but if you want to access a personal account or playlist you need authorization. Spotify uses the Authorization Code Flow, which essentially provides an access token after the user has logged in once, and allows that token to be refreshed.  
+        <p>To access basic levels of info, you needn’t ask for permission, but if you want to access a personal account or playlist you need authorization. Spotify uses the Authorization Code Flow, which essentially provides an access token after the user has logged in once, and allows that token to be refreshed.  </p>
 
-        A normal request will need to use GET, and you will need a couple of parameters like client_id, response_type, and redirect_uri. There are a couple of parameter that are mentions on the site that are optional but provide extra assurances that your connection was made. An example of a normal statement would look like this:
+        <p>A normal request will need to use GET, and you will need a couple of parameters like client_id, response_type, and redirect_uri. There are a couple of parameter that are mentions on the site that are optional but provide extra assurances that your connection was made. An example of a normal statement would look like this:</p>
+        <br>
         <script async src="//jsfiddle.net/newtorob/hey5m783/embed/js,html,css,result/dark/"></script>
+        <br>
 
-        When the user accepts or denies your request, redirect_uri brings them back: https://example.com/callback?code=NApCCg..BkWtQ&state=profile%2Factivity
 
-        Using POST request for Spotify Accounts services, the authorization has been completed, the access token needs to be exchanged with it:
+        <p>When the user accepts or denies your request, redirect_uri brings them back: </p>
+            <br>
+            https://example.com/callback?code=NApCCg..BkWtQ&state=profile%2Factivity
+        <br>
+
+        <p> Using POST request for Spotify Accounts services, the authorization has been completed, the access token needs to be exchanged with it:</p>
+        <br>
         POST https://accounts.spotify.com/api/token
-        For the POST request, you have three parameters that are REQUIRED: grant_type for the OAuth 2.0 specification for the authorization_code value. The other two parameters are code and redirect_uri. 
+        <br>
+        <p>For the POST request, you have three parameters that are REQUIRED: grant_type for the OAuth 2.0 specification for the authorization_code value. The other two parameters are code and redirect_uri. </p>
 
 		
 		
