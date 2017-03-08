@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ccb457b-055d-4953-a207-2022c8775b8c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spotapi.html" afterPath="$PROJECT_DIR$/spotapi.html" />
-    </list>
+    <list default="true" id="5ccb457b-055d-4953-a207-2022c8775b8c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -78,8 +75,8 @@
       <file leaf-file-name="spotapi.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spotapi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state relative-caret-position="659">
+              <caret line="49" column="12" lean-forward="true" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -237,12 +234,12 @@
       <option name="presentableId" value="Default" />
       <updated>1488848759163</updated>
       <workItem from="1488848762549" duration="12362000" />
-      <workItem from="1488946119121" duration="516000" />
+      <workItem from="1488946119121" duration="598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12878000" />
+    <option name="totallyTimeSpent" value="12960000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -420,8 +417,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spotapi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state relative-caret-position="659">
+          <caret line="49" column="12" lean-forward="true" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
           <folding />
         </state>
       </provider>
