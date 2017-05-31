@@ -3,18 +3,18 @@
 }
 
 body, #section {
-	background-color: #A9A9A9; 
+	background-color: white; 
 }
 
 #header {
 	/*border-radius: 0px;*/
 	border-top-left-radius: 0px;
 	border-top-right-radius: 0px;
-    color:white;
+    color: #CAEBF2;
     text-align:center;
     padding:5px;
 	min-height: 60px;
-	border: 1px solid #F7B733;
+	border: 1px solid firebrick;
     background-image: radial-gradient(ellipse, #062F4F 0%, #000000 100%);
     background-image: -o-radial-gradient(ellipse, #062F4F 0%, #000000 100%);
     background-image: -moz-radial-gradient(ellipse, #062F4F 0%, #000000 100%);
