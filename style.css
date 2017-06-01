@@ -6,6 +6,11 @@ body, #section {
 	background-color: white; 
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 #header {
 	/*border-radius: 0px;*/
 	border-top-left-radius: 0px;
