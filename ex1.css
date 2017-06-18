@@ -1,0 +1,7 @@
+.class1 {
+    background-color: #555;
+}
+.class1 .class2 {
+        background-color: blueviolet;
+        color: #555;
+    }
