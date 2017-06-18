@@ -1,0 +1,27 @@
+$primaryColor: #eeccff;
+$firstValue: 62.5%;
+
+$firstValue: 24px !default;
+
+body {
+    $primaryColor: #ccc;
+    background: $primaryColor;
+    font-size:$firstValue;
+}
+
+p {
+    color: $primaryColor;
+}
+
+//one could even do some math!!!
+
+$container-width: 100% - 20px;
+
+
+.container {
+    width: $container-width;
+}
+
+.col-4 {
+    width: $container-width;
+}
